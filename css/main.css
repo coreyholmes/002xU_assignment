@@ -1,5 +1,57 @@
 /* Enter CSS below */
 
+html {
+  font-weight: 200;
+}
+
 #content {
 	margin-top: 100px;
+}
+
+/******* Navbar *******/
+
+#brand {
+  height: 60px;
+}
+
+.navbar-default {
+  background-color: white;
+  border: none;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #C87BA1;
+}
+.navbar-default .navbar-nav>li>a:hover {
+    color: #641A40;
+}
+
+.navbar-nav>li>a {
+    padding-top: 35px;
+    padding-bottom: 30px;
+}
+
+/******* Footer *******/
+
+footer i {
+  margin-right: 15px;
+  color: #641A40;
+}
+
+
+/*********************/
+
+.box {
+  background: grey;
+  height: 200px;
+  margin-bottom: 10px;
+}
+
+.row {
+  margin-bottom: 50px
+}
+
+@media (min-width: 768px)
+.container {
+    width: 750px;
 }
