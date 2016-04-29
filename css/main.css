@@ -220,9 +220,9 @@ a:hover {
   -o-background-size: cover;
   background-size: cover;
   width: 100%;
-  height: 600px;
+  height: 400px;
   margin-bottom: 50px;
-  line-height: 600px;
+  line-height: 400px;
   transition: background 5s;
 }
 
