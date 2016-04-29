@@ -20,7 +20,14 @@ a:hover {
 
 .article-preview img {
   height: 215px;
+  opacity: 0.8
+
 }
+
+.article-preview img:hover {
+  height: 215px;
+}
+
 
 /******* Navbar *******/
 
