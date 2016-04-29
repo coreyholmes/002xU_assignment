@@ -37,9 +37,15 @@ a:hover {
 }
 
 .article-preview img {
-  height: 215px;
+  height: 180px;
   opacity: 0.8;
   transition: opacity 0.6 1s ease;
+}
+
+@media(max-width:767px) {
+  .article-preview img {
+    height: 200px;
+  }
 }
 
 .article-preview img:hover {
@@ -140,6 +146,9 @@ footer {
 
 /*********************/
 
+.home-sidebar img {
+  width: 250px;
+}
 .main-image {
   background: grey;
   height: 500px;
