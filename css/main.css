@@ -37,6 +37,28 @@ a:hover {
   padding: 50px 0;
 }
 
+.article-preview .article-circle-right {
+  height: 35px;
+  width: 35px;
+  background-color: white;
+  float: right;
+  margin-top: -70px;
+  margin-right: -19px;
+  border-radius: 100%;
+  border: 3px solid #eee;
+}
+
+.article-preview .article-circle-left {
+  height: 35px;
+  width: 35px;
+  background-color: white;
+  float: left;
+  margin-top: -70px;
+  margin-right: -19px;
+  border-radius: 100%;
+  border: 3px solid #eee;
+}
+
 .article-preview img {
   display: block;
   margin: auto;
@@ -164,6 +186,15 @@ a:hover {
   text-align: center;
 }
 
+.home-sidebar .instagram{
+  margin-top: 5px;
+  width: 50%;
+}
+
+.home-sidebar .sidebar-img-margin {
+  margin-bottom: 50px;
+}
+
 .home-sidebar h3 {
   line-height: 1.2;
   margin-bottom: 30px;
@@ -181,10 +212,15 @@ footer i {
   color: #641A40;
 }
 
-footer {
-  padding: 30px 0; 
+footer i:hover {
+  transform: rotate(30deg);
+  transition: all 200ms ease;
 }
 
+footer {
+  padding: 30px 0; 
+  margin-top: 50px;
+}
 
 /*********************/
 
@@ -204,6 +240,16 @@ footer {
 
 .sub-image {
   width: 80%;
+}
+
+.hr-circle {
+  height: 15px;
+  width: 15px;
+  background-color: white;
+  float: right;
+  margin-top: -28px;
+  border-radius: 100%;
+  border: 1.5px solid #eee;
 }
 
 @media(max-width:767px){
