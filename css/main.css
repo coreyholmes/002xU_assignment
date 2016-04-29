@@ -3,3 +3,45 @@
 #content {
 	margin-top: 100px;
 }
+
+.navbar-default .navbar-toggle {
+  border-color: transparent;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+  background-color: transparent;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: black;
+}
+
+.navbar-default .navbar-brand {
+  color: black;
+}
+
+.menu-position {
+  float: right;
+}
+
+@media(max-width:767px) {
+  .menu-position {
+    float: left;
+  }  
+}
+
+@media(max-width:767px) {
+  .navbar-header {
+    width: 100%;
+    text-align: center;
+    padding-top: 15px;
+  }
+  .navbar-brand {
+    float: none;
+    padding-top: 100px;
+  }  
+
+  .navbar-toggle {
+    margin-top: -7px;
+  }
+}
