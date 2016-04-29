@@ -27,69 +27,10 @@ a:hover {
 @media(max-width:767px) {
   #content {
     margin-top: 60px;
+    padding-left: 0px;
+    padding-right: 0px;
   }
 }
-
-
-.article-preview {
-  border-bottom: 3px solid #eee;
-  border-right: 3px solid #eee;
-  padding: 50px 0;
-}
-
-.article-preview .article-circle-right {
-  height: 35px;
-  width: 35px;
-  background-color: white;
-  float: right;
-  margin-top: -70px;
-  margin-right: -19px;
-  border-radius: 100%;
-  border: 3px solid #eee;
-}
-
-.article-preview .article-circle-left {
-  height: 35px;
-  width: 35px;
-  background-color: white;
-  float: left;
-  margin-top: -70px;
-  margin-right: -19px;
-  border-radius: 100%;
-  border: 3px solid #eee;
-}
-
-.article-preview img {
-  display: block;
-  margin: auto;
-  height: auto;
-  max-height: 100%;
-  width: auto;
-  max-width: 100%;
-  opacity: 0.8;
-  transition: opacity 0.6 1s ease;
-}
-
-@media(max-width:767px) {
-  .article-preview {
-    border-right: none;
-}
-  .article-preview img {
-    height: 200px;
-  }
-}
-
-.article-preview img:hover {
-  opacity: 1; 
-  border-radius: 0 0 0 35px;
-}
-
-.article-preview img {
--o-transition: all 500ms;
- -moz-transition: all 500ms;
- -webkit-transition: all 500ms;
- transition: all 500ms;
- }
 
 
 /******* Navbar *******/
@@ -307,9 +248,9 @@ a:hover {
     -o-background-size: cover;
     background-size: cover;
     width: 100%;
-    height: 400px;
+    height: 300px;
     margin-bottom: 50px;
-    line-height: 400px
+    line-height: 300px
   }  
 
   .main-title {
@@ -327,15 +268,44 @@ a:hover {
   margin-bottom: 10px;
 }
 
+
 /******* Article *******/
 
 .article-preview {
   border-bottom: 3px solid #eee;
-  padding-bottom: 50px;
+  border-right: 3px solid #eee;
+  padding: 50px 0;
+}
+
+.article-preview .article-circle-right {
+  height: 35px;
+  width: 35px;
+  background-color: white;
+  float: right;
+  margin-top: -70px;
+  margin-right: -19px;
+  border-radius: 100%;
+  border: 3px solid #eee;
+}
+
+.article-preview .article-circle-left {
+  height: 35px;
+  width: 35px;
+  background-color: white;
+  float: left;
+  margin-top: -70px;
+  margin-right: -19px;
+  border-radius: 100%;
+  border: 3px solid #eee;
 }
 
 .article-preview img {
-  height: 180px;
+  display: block;
+  margin: auto;
+  height: auto;
+  max-height: 100%;
+  width: auto;
+  max-width: 100%;
   opacity: 0.8;
   transition: opacity 0.6 1s ease;
   -o-transition: all 500ms;
