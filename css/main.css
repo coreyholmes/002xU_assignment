@@ -214,7 +214,7 @@ a:hover {
 }
 
 .main-image {
-  background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url("../img/articles/ZLSw0SXxThSrkXRIiCdT_DSC_0345.jpg") no-repeat center center;
+  background: url("../img/articles/ZLSw0SXxThSrkXRIiCdT_DSC_0345.jpg") no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -223,15 +223,22 @@ a:hover {
   height: 400px;
   margin-bottom: 50px;
   line-height: 400px;
-  transition: background 5s;
+  opacity: 0.8;
+  transition: opacity 0.6 1s ease;
+  -o-transition: all 500ms;
+  -moz-transition: all 500ms;
+  -webkit-transition: all 500ms;
+  transition: all 500ms;
 }
 
 .main-image:hover {
-  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url("../img/articles/ZLSw0SXxThSrkXRIiCdT_DSC_0345.jpg") no-repeat center center;
+  background: url("../img/articles/ZLSw0SXxThSrkXRIiCdT_DSC_0345.jpg") no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  opacity: 1; 
+  border-radius: 0 0 50px 0;
 }
 
 .main-title {
@@ -242,6 +249,32 @@ a:hover {
   text-transform: uppercase;
   vertical-align: middle;
 }
+
+
+
+/*.article-preview img {
+  height: 180px;
+  opacity: 0.8;
+  transition: opacity 0.6 1s ease;
+  -o-transition: all 500ms;
+  -moz-transition: all 500ms;
+  -webkit-transition: all 500ms;
+  transition: all 500ms;
+}
+
+@media(max-width:767px) {
+ .article-preview img {
+   height: 200px;
+  }
+}
+
+.article-preview img:hover {
+  opacity: 1; 
+  border-radius: 0 0 0 35px;
+}
+*/
+
+
 
 .sub-image {
   width: 80%;
@@ -296,6 +329,10 @@ a:hover {
   height: 180px;
   opacity: 0.8;
   transition: opacity 0.6 1s ease;
+  -o-transition: all 500ms;
+  -moz-transition: all 500ms;
+  -webkit-transition: all 500ms;
+  transition: all 500ms;
 }
 
 @media(max-width:767px) {
@@ -307,13 +344,6 @@ a:hover {
 .article-preview img:hover {
   opacity: 1; 
   border-radius: 0 0 0 35px;
-}
-
-.article-preview img {
-  -o-transition: all 500ms;
-  -moz-transition: all 500ms;
-  -webkit-transition: all 500ms;
-  transition: all 500ms;
 }
 
 
