@@ -10,23 +10,49 @@ h2 {
   color: #641A40;
 }
 
+a {
+  color: #C87BA1;
+  cursor: pointer;
+}
+
 a:hover {
   text-decoration: none !important;
+  color: #641A40;
 }
+
 
 #content {
-	margin-top: 100px;
-}
-
-.article-preview img {
-  height: 215px;
+	margin-top: 80px;
 }
 
 @media(max-width:767px) {
   #content {
-    margin-top: 70px;
+    margin-top: 60px;
   }
 }
+
+.article-preview {
+  border-bottom: 3px solid #eee;
+  padding-bottom: 50px;
+}
+
+.article-preview img {
+  height: 215px;
+  opacity: 0.8;
+  transition: opacity 0.6 1s ease;
+}
+
+.article-preview img:hover {
+  opacity: 1; 
+  border-radius: 0 0 0 35px;
+}
+
+.article-preview img {
+-o-transition: all 500ms;
+ -moz-transition: all 500ms;
+ -webkit-transition: all 500ms;
+ transition: all 500ms;
+ }
 
 /******* Navbar *******/
 
@@ -82,7 +108,7 @@ a:hover {
     text-align: center;
   }
   .navbar-header {
-    width: 100%;
+    width: 90%;
     text-align: center;
     padding-top: 8px;
   }
@@ -116,13 +142,17 @@ footer i {
   color: #641A40;
 }
 
+footer {
+  padding-bottom: 15px; 
+}
+
 
 /*********************/
 
 .main-image {
   background: url("../img/articles/ZLSw0SXxThSrkXRIiCdT_DSC_0345.jpg");
   width: 100%;
-  height: 650px;
+  min-height: 500px;
   margin-bottom: 50px;
   padding-left: -15px;
   padding-right: -15px;
