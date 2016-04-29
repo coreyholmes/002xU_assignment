@@ -8,6 +8,12 @@ html {
 	margin-top: 100px;
 }
 
+@media(max-width:767px) {
+  #content {
+    margin-top: 70px;
+  }
+}
+
 /******* Navbar *******/
 
 #brand {
@@ -52,25 +58,32 @@ html {
 }
 
 @media(max-width:767px) {
-  .menu-position {
-    float: left;
-  }  
-}
-
-@media(max-width:767px) {
   .navbar-header {
     width: 100%;
     text-align: center;
-    padding-top: 15px;
+    padding-top: 8px;
   }
+
   .navbar-brand {
     float: none;
     padding-top: 100px;
-  }  
+  } 
 
   .navbar-toggle {
-    margin-top: -7px;
+    margin-top: 2px;
   }
+
+  .navbar-brand-mobile {
+    float: none;
+  } 
+
+  #brand-mobile {
+    width: 40px;
+  }
+
+  .menu-position {
+    float: left;
+  } 
 }
 
 /******* Footer *******/
@@ -82,6 +95,20 @@ footer i {
 
 
 /*********************/
+
+.main-image {
+  background: grey;
+  height: 500px;
+  margin-bottom: 10px;
+}
+
+@media(max-width:767px){
+  .main-image {
+    background: grey;
+    height: 400px;
+    margin-bottom: 10px;
+  }  
+}
 
 .box {
   background: grey;
