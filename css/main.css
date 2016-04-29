@@ -4,8 +4,22 @@ html {
   font-weight: 200;
 }
 
+h2 {
+  font-size: 30px;
+  font-weight: 300;
+  color: #641A40;
+}
+
+a:hover {
+  text-decoration: none !important;
+}
+
 #content {
-	margin-top: 100px;
+	margin-top: 125px;
+}
+
+.article-preview img {
+  height: 215px;
 }
 
 @media(max-width:767px) {
