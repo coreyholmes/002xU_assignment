@@ -5,7 +5,11 @@ html {
 }
 
 #content {
-	margin-top: 100px;
+	margin-top: 125px;
+}
+
+.article-preview img {
+  height: 225px;
 }
 
 /******* Navbar *******/
