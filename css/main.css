@@ -138,21 +138,12 @@ a:hover {
   margin-top: -470px;
   z-index: 1;
   position: relative;
-  height: 10px;
+  height: 250px;
   -o-transition: all 500ms;
   -moz-transition: all 500ms;
   -webkit-transition: all 500ms;
   transition: all 500ms;
-}
-
-.zoom {
-  height: 250px !important;
-  visibility: visible;
-  -o-transition: all 500ms;
-  -moz-transition: all 500ms;
-  -webkit-transition: all 500ms;
-  transition: all 500ms;
-  -webkit-animation-name: spin;
+ -webkit-animation-name: spin;
     -webkit-animation-duration: 5s;
     -webkit-animation-iteration-count: infinite;
     -webkit-animation-timing-function: linear;
@@ -191,6 +182,15 @@ a:hover {
         transform:rotate(360deg);
     }
 }
+
+.zoom {
+  height: 10px !important;
+  visibility: visible;
+  -o-transition: all 500ms;
+  -moz-transition: all 500ms;
+  -webkit-transition: all 500ms;
+  transition: all 500ms;
+ }
 
 .article-preview img {
   display: block;
