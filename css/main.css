@@ -39,6 +39,23 @@ a:hover {
   height: 60px;
 }
 
+.navbar-nav li a {
+  -o-transition: all 500ms;
+  -moz-transition: all 500ms;
+  -webkit-transition: all 500ms;
+  transition: all 500ms;
+}
+
+.navbar-nav li a:hover {
+  font-size: 20px;
+  margin: 0 15px 0 25px;
+  font-weight: 500;
+  -o-transition: all 1s;
+  -moz-transition: all 1s;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
 .container-fluid>.navbar-collapse, .container-fluid>.navbar-header {
   margin-left: 0px;
   margin-right: 0px;
@@ -395,11 +412,19 @@ a:hover {
 footer i {
   margin-right: 15px;
   color: #641A40;
+  -o-transition: all 500ms;
+  -moz-transition: all 500ms;
+  -webkit-transition: all 500ms;
+  transition: all 500ms;
 }
 
 footer i:hover {
   transform: rotate(30deg);
   transition: all 200ms ease;
+  -o-transition: all 500ms;
+  -moz-transition: all 500ms;
+  -webkit-transition: all 500ms;
+  transition: all 500ms;
 }
 
 footer {
