@@ -50,10 +50,10 @@ a:hover {
   font-size: 20px;
   margin: 0 15px 0 25px;
   font-weight: 500;
-  -o-transition: all 1s;
-  -moz-transition: all 1s;
-  -webkit-transition: all 1s;
-  transition: all 1s;
+  -o-transition: all 500ms;
+  -moz-transition: all 500ms;
+  -webkit-transition: all 500ms;
+  transition: all 500ms;
 }
 
 .container-fluid>.navbar-collapse, .container-fluid>.navbar-header {
